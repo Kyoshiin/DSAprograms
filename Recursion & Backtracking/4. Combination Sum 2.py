@@ -13,7 +13,6 @@ class Solution:
             return
 
         for i in range(ind, len(candidates)):
-
             if target < candidates[i]:
                 break
 
