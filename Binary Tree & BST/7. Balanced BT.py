@@ -19,7 +19,7 @@ class Solution:
         if not root: return 0
         return 1 + max(self.height(root.left), self.height(root.right))
 
-    # Optimised
+    ################################# Optimised ##########################################
     def isBalanced2(self, root):
         if not root:
             return True
